@@ -20,6 +20,7 @@ jar = http.cookiejar.CookieJar()
 jar = browser_cookie3.edge(domain_name=".kakao.com")
 
 
+
 # 기존 입력 값 로딩
 def load_config():
     config_parser = configparser.ConfigParser()
