@@ -17,7 +17,7 @@ search_time = 0.2  # 잔여백신을 해당 시간마다 한번씩 검색합니�
 urllib3.disable_warnings()
 
 jar = http.cookiejar.CookieJar()
-jar = browser_cookie3.chrome(domain_name=".kakao.com")
+jar = browser_cookie3.edge(domain_name=".kakao.com")
 
 
 # 기존 입력 값 로딩
